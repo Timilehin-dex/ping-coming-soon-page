@@ -14,8 +14,8 @@ This is a solution to the [Article preview component challenge on Frontend Mento
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Timilehin-dex/huddle-landing-page-with-single-introductory-section-master)
-- Live Site URL: [Add live site URL here](https://timilehin-dex.github.io/huddle-landing-page-with-single-introductory-section-master/)
+- Solution URL: [Add solution URL here](https://github.com/Timilehin-dex/ping-coming-soon-page)
+- Live Site URL: [Add live site URL here](https://timilehin-dex.github.io/ping-coming-soon-page/)
 
 ## My process
 
