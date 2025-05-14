@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Frontend Mentor | Ping coming soon page</title>
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body class="font-libre">
+    <section class="grid place-content-center justify-items-center text-center">
+      <div class="max-w-2xl sm:p-0 p-10">
+        <div class="flex justify-center my-10">
+          <img class="w-14 sm:w-auto" src="images/logo.svg" alt="" />
+        </div>
+        <div class="mb-20">
+          <h1 class="text-neutral-gray sm:text-5xl text-xl font-light mb-3">
+            We are launching
+            <span class="text-neutral-veryDarkBlue font-bold">soon!</span>
+          </h1>
+
+          <p
+            class="text-neutral-veryDarkBlue opacity-80 sm:text-body text-xs font-light mb-7"
+          >
+            Subscribe and get notified
+          </p>
+
+          <form action="" onsubmit="return validateEmail()">
+            <div class="flex sm:flex-row flex-col gap-4">
+              <input
+                id="email"
+                class="border border-secondary-paleBlue focus:outline-none focus:ring-1 focus:ring-secondary-lightRed placeholder:text-secondary-paleBlue sm:placeholder:text-base placeholder:font-light placeholder:text-opacity-70 placeholder:text-xs rounded-full w-full sm:h-auto h-12 pl-5"
+                type="email"
+                placeholder="Your email address..."
+                required
+              />
+              <p
+                id="error-msg"
+                class="text-secondary-lightRed text-sm mt-1 hidden absolute left-0 -bottom-5"
+              >
+                Please provide a valid email address.
+              </p>
+              <button
+                type="submit"
+                class="bg-primary-blue hover:bg-secondary-paleBlue rounded-full text-white text-sm sm:w-56 w-full h-12 shadow-custom"
+              >
+                Notify Me
+              </button>
+            </div>
+          </form>
+        </div>
+        <!--  -->
+        <img src="images/illustration-dashboard.png" alt="" />
+        <div class="flex justify-center gap-4 mb-5 mt-20">
+          <div
+            class="flex items-center justify-center border sm:w-10 w-7 sm:h-10 h-7 rounded-full aspect-square group hover:bg-primary-blue"
+          >
+            <i
+              class="fa-brands fa-facebook-f text-primary-blue group-hover:text-white"
+            ></i>
+          </div>
+          <div
+            class="flex items-center justify-center border sm:w-10 w-7 sm:h-10 h-7 rounded-full aspect-square group hover:bg-primary-blue"
+          >
+            <i
+              class="fa-brands fa-twitter text-primary-blue group-hover:text-white"
+            ></i>
+          </div>
+          <div
+            class="flex items-center justify-center border sm:w-10 w-7 sm:h-10 h-7 rounded-full aspect-square group hover:bg-primary-blue"
+          >
+            <i
+              class="fa-brands fa-instagram text-primary-blue group-hover:text-white"
+            ></i>
+          </div>
+        </div>
+        <span class="text-neutral-gray font-light sm:text-sm text-xs">
+          &copy; Copyright Ping. All rights reserved.</span
+        >
+        <footer class="mt-5">
+          <p class="attribution">
+            Challenge by
+            <a
+              href="https://www.frontendmentor.io?ref=challenge"
+              target="_blank"
+              >Frontend Mentor</a
+            >. Coded by <a href="#">Your Name Here</a>.
+          </p>
+        </footer>
+      </div>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
